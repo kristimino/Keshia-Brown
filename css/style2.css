@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+/* Navbar css */
+.navbar{
+    position: absolute;
+}
+.navbar-nav a{
+    color: black !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Muli, sans-serif;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+ .navbar-toggler-icon{
+    width: 60px;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 20px;
+} 
+
+.sp-element{
+    width: 100px;
+    font-size: 3rem;
+}
+
+
+.navbar-nav a:hover{
+    color: black !important;
+}
+
+.navbar-brand img{
+    margin-top: 35px;
+    margin-left: 95px;
+    width: 65px;
+}
+
+
+/* Background */
+.background{
+    background-color: #f7f7f2;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 140px 0px;
+    
+}
+
+
+/*  All the container */
+.row{
+    padding-bottom: 20px;
+}
+
+.mywork{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+.col-md-6 img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    transition: all .9s linear;
+    transition: transform .9s ease;
+    
+}
+
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+transition: transform .9s ease;
+}
+
+
+.zoom:hover img{
+   transform: scale(1.5); 
+}
+
+.txt1{
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.txt2{
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -.5px;
+    font-weight: 400;
+    padding-bottom: 3%;
+}
+
+/* Footer part */
+.footer{
+    background-color: rgb(27, 64, 121);
+    position: relative;
+    padding: 100px 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-size-adjust: 100%;
+    font-family: Muli,sans-serif;
+    font-size: 100%;
+}
+
+
+.info-msg{
+    color: #f7f7f2;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-col-column{
+    color:#f7f7f2;
+    padding-left: 20px;
+}
+
+.col-md-10{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.5px;
+    width: 100%;
+    position: relative;
+    padding-left: 0;
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+.col-md-8{
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: -.5px;
+    font-family: Muli, sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.name{
+    font-size: 16px;
+    font-family: Muli, sans-serif;
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: .18em;
+}
+
+.secname{
+    font-size: 1rem;
+    letter-spacing: .18em;
+    text-size-adjust: 100%;
+    font-family: Muli, sans-serif;
+    font-weight: 500;
+    border-bottom: 3px solid pink;
+}
+
+.container-footer{
+    margin-left: 100px;
+    width: 90%;
+}
+
+.contact-details{
+    padding: 100px 0;
+}
+
+.contact-col{
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+}
+
+.col-md-4 p3{
+    color: #f7f7f2;
+    font-family: Muli,sans-serif;
+    font-size: 13.6px;
+    margin: 0px 0px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .18em;
+}
+
+.col-md-4 a{
+    font-size: 16px;
+    color: #f7f7f2;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.list-col li{
+    margin-top: 40px;
+}
+
+.list-col{
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+.credit{
+    margin-top: 50px;
+}
+.col-md-12{
+    color: #f7f7f2;
+    font-size: 1rem;
+    line-height: 36px;
+    letter-spacing: -.5px;
+    
+}

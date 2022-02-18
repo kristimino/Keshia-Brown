@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+/* Navbar css */
+.navbar-nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Muli, sans-serif;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.navbar-toggler span{
+    background-color: white !important;
+    height: 20px;
+    pointer-events: none;
+    height: 3px;
+    width: 45px;
+    display: block;
+    margin-bottom: 6px;
+}
+.navbar-nav a:hover{
+    color: white !important;
+}
+
+.navbar-brand img{
+    margin-top: 35px;
+    margin-left: 100px;
+    width: 65px;
+}
+
+
+/* Container css */
+.container{
+    padding-left: 20%;
+    line-height: 36px;
+    margin-top: 35px;
+}
+
+.text1{
+    color: white;
+    font-size: 3.5rem;
+    font-family: Muli, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -2px;
+
+}
+
+h1 .navbar-brand{
+    margin-top: auto;
+}
+
+p{
+    color: white !important;
+    font-size: 24px;
+    font-family: Muli, sans-serif;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.clsaandi{
+    margin-top: 100px;
+}
+
+.col-auto{
+    color: white !important;
+    font-family: Muli, sans-serif;
+    text-decoration: none !important;
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.col-auto .fa-solid {
+    margin-left: 10px;
+    
+}
+
+.fa-solid {
+    color: white;
+    font-size: 25px;
+    
+}
+
+/* Background css */
+.colorful-home{
+    background-color: deeppink !important;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 140px 0px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    background: linear-gradient(-45deg,#437f97,#d1495b,#1b4079,#d1495b);
+    ;
+    background-size: 400% 400%;
+    animation: change 10s ease infinite;
+}
+
+
+/* Keyframes color change */
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
